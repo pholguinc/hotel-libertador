@@ -16,6 +16,12 @@ mix.js('resources/js/app.js', 'public/js')
         require('postcss-import'),
         require('tailwindcss'),
     ]);
+    mix.webpackConfig({
+        stats: {
+            children: false,
+            entrypoints: true,
+        },
+    });
 
 if (mix.inProduction()) {
     mix.version();
