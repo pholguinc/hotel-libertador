@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="utf-8">
-    <title>Color Admin | Dashboard</title>
+    <title>Hotel Libertador 2.0 | Dashboard</title>
     <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" name="viewport">
     <meta content="" name="description">
     <meta content="" name="author">
@@ -14,9 +14,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" />
     <!-- ================== END BASE CSS STYLE ================== -->
 
-    <!-- ================== BEGIN PAGE LEVEL STYLE ================== -->
-
-    <!-- ================== END PAGE LEVEL STYLE ================== -->
+    @yield('css')
 </head>
 
 <body>
@@ -54,6 +52,8 @@
     <!-- ================== END BASE JS ================== -->
 
     <!-- ================== BEGIN PAGE LEVEL JS ================== -->
+
+    @yield('js')
 
     <!-- ================== END PAGE LEVEL JS ================== -->
 </body>
